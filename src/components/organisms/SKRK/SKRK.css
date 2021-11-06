@@ -1,0 +1,9 @@
+.main {
+    justify-content: center;
+    background-image: url('./../../../img/skrk.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    width: 100vw;
+    height: 80vh;
+}
