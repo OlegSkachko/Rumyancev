@@ -5,6 +5,22 @@
 .content-content{
     padding: 75px 0;
 }
+
+.modal__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid #3dc832;
+    border-radius: 12px;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin: 20px;
+}
+
 #exam-block{
     background-color: #fff000;
     border-radius: 12px;

@@ -1,23 +1,21 @@
 import React, { useState } from 'react';
-import ModalWindow from '../../molecules/ModalWndow/ModalWindow.jsx';
+import ModalVolokno from '../../atoms/ModalVolokno/ModalVolokno.jsx';
+import Volokno from '../../atoms/Volokno/Volokno.jsx';
 import './Equipment.css'
 const Equipment = (props) => {
-    const [isByBusiness, setIsByBusiness] = useState(false)
+    const [isEquipment, setIsEquipment] = useState(false)
     const [ModalActiv, setModalActiv] =useState(false)
   
-    function buyBusiness() {
-        setIsByBusiness(true)
+    function chooseEquipment(n) {
+        setIsEquipment(n)
         setModalActiv(true)
+
     }
 
     function mod(){
-        if(isByBusiness) {
+        if(isEquipment === 1) {
             return(
-             <ModalWindow
-             title='...'
-             subtitle='...'
-            //  src={myBusiness}
-             btnName='закрыть'
+             <ModalVolokno
              onClick1={()=>{setModalActiv(false)}} 
              active = {ModalActiv} onClick={()=>setModalActiv(false)}/>
             )
@@ -27,19 +25,15 @@ const Equipment = (props) => {
     return (
         <div>
            {mod()}
-           
-            <div className="shop">
-                <div className='modal__content' onClick={e=>e.stopPropagation()}>
-                    оптический однофотонный передатчик
-                    <button  onClick={buyBusiness}>подробнее</button>
-                </div>
+           <div>
+           <Volokno onClick={()=>chooseEquipment(1)}/>
                 <div className='modal__content' onClick={e=>e.stopPropagation()}>
                     оптический однофотонный приёмник 
-                    <button onClick={buyBusiness}>подробнее</button>
+                    <button onClick={()=>chooseEquipment(1)}>подробнее</button>
                 </div>
                 <div className='modal__content' onClick={e=>e.stopPropagation()}>
                     волоконно-оптическая линия связи
-                    <button  onClick={buyBusiness}>подробнее</button>
+                    <button  onClick={()=>chooseEquipment(1)}>подробнее</button>
                 </div>
                
             </div>

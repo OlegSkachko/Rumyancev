@@ -9,10 +9,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     transform: scale(0);
     
 }
+
 .modal.active {
     width: 100vw;
     height: 100vh;
@@ -26,7 +26,6 @@
     transform: scale(1);
     transition: 0.7s;
 }
-
 
 .modal_content {
     display: flex;
@@ -44,4 +43,19 @@
     overflow:scroll;
     font-size: 20px;
     font-weight: 500;
+}
+
+h1 {
+    text-align: center;
+}
+img {
+    width:230px;
+}
+button {
+    font-size: 30px; 
+    background: linear-gradient(#3dc832, #fff000);
+    border-radius: 10px;
+}
+input {
+    width: 50px;
 }
