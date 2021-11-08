@@ -14,6 +14,19 @@ const [value8,setValue8] = useState(250)
 const [value9,setValue9] = useState(5)
 const [value10,setValue10] = useState(-25)
 
+
+
+
+
+    
+
+
+
+
+
+
+
+
     
     return (
         <div className={props.active==true ? 'modal active': 'modal' } onClick={props.onClick}>

@@ -11,14 +11,220 @@
 }
 
 .optovolokno {
-    position: relative;
+    position: absolute;
     width: 36.5%;
     height: 7%;
     top: 41.5%;
-    left: 8.2%;
+    left: 40%;
     border: 4px solid black
 }
 
-.optovolokno:hover {
-    border: 4px solid green
+.lazer {
+    position: absolute;
+    width: 7.3%;
+    height: 18.7%;
+    top: 11.8%;
+    left: 24.9%;
+    border: 4px solid black;
+}
+
+.attenuator {
+    position: absolute;
+    width: 7.1%;
+    height: 18.7%;
+    top: 11.8%;
+    left: 33.4%;
+    border: 4px solid black;
+}
+
+.razvetvitel {
+    position: absolute;
+    width: 6.1%;
+    height: 24.7%;
+    top: 8.8%;
+    left: 43.4%;
+    border: 4px solid black;
+}
+
+.vofm1 {
+    position: absolute;
+    width: 6.8%;
+    height: 12.7%;
+    top: 8.8%;
+    left: 51%;
+    border: 4px solid black;
+}
+.vrachatel {
+    position: absolute;
+    width: 6.8%;
+    height: 12.7%;
+    top: 23.8%;
+    left: 51%;
+    border: 4px solid black;
+}
+.controler1 {
+    position: absolute;
+    width: 6.8%;
+    height: 12.7%;
+    top: 8.8%;
+    left: 60.9%;
+    border: 4px solid black;
+}
+.volz1 {
+    position: absolute;
+    width: 6.8%;
+    height: 12.7%;
+    top: 23.8%;
+    left: 60.9%;
+    border: 4px solid black;
+}
+.objedinitel {
+    position: absolute;
+    width: 6.8%;
+    height: 24.7%;
+    top: 10.8%;
+    left: 69.6%;
+    border: 4px solid black;
+}
+
+.controler2 {
+    position: absolute;
+    width: 15.6%;
+    height: 7%;
+    top: 41.5%;
+    left: 22.7%;
+    border: 4px solid black
+}
+
+.svetodelitel {
+    position: absolute;
+    width: 5.7%;
+    height: 27.5%;
+    top: 56.5%;
+    left: 23.9%;
+    border: 4px solid black
+}
+.volz2 {
+    position: absolute;
+    width: 6.8%;
+    height: 13.2%;
+    top: 56.5%;
+    left: 31.4%;
+    border: 4px solid black
+}
+.vrachatel2 {
+    position: absolute;
+    width: 6.8%;
+    height: 13.2%;
+    top: 71.3%;
+    left: 31.4%;
+    border: 4px solid black
+}
+
+.vofm2 {
+    position: absolute;
+    width: 5.5%;
+    height: 13.2%;
+    top: 71.3%;
+    left: 40.3%;
+    border: 4px solid black
+}
+.controler3 {
+    position: absolute;
+    width: 6.8%;
+    height: 13.2%;
+    top: 71.3%;
+    left: 47.8%;
+    border: 4px solid black
+}
+.hbo {
+    position: absolute;
+    width: 4.6%;
+    height: 27.3%;
+    top: 56.8%;
+    left: 56.5%;
+    border: 4px solid black
+}
+.volz3 {
+    position: absolute;
+    width: 5.8%;
+    height: 13.1%;
+    top: 71.5%;
+    left: 63%;
+    border: 4px solid black
+}
+.summator {
+    position: absolute;
+    width: 5.8%;
+    height: 27.6%;
+    top: 56.6%;
+    left: 70.7%;
+    border: 4px solid black
+}
+.registrator {
+    position: absolute;
+    width: 13.5%;
+    height: 6.6%;
+    top: 86.6%;
+    left: 52.1%;
+    border: 4px solid black
+}
+.registrator {
+    position: absolute;
+    width: 13.5%;
+    height: 6.6%;
+    top: 86.6%;
+    left: 52.1%;
+    border: 4px solid black
+}
+.strobirovanie {
+    position: absolute;
+    width: 16.5%;
+    height: 6.6%;
+    top: 86.6%;
+    left: 24.9%;
+    border: 4px solid black
+}
+.oii {
+    position: absolute;
+    width: 18.1%;
+    height: 26.7%;
+    top: 6.4%;
+    left: 23.7%;
+    border: 4px solid black;
+}
+
+.alisa {
+    position: absolute;
+    width: 54.8%;
+    height: 39.2%;
+    top: 0.2%;
+    left: 22.7%;
+    border: 4px solid black;
+}
+.bob {
+    position: absolute;
+    width: 54.8%;
+    height: 45.3%;
+    top: 50.5%;
+    left: 22.7%;
+    border: 4px solid black;
+}
+.alisa:hover, .bob:hover {
+    background-color: rgba(17, 250, 250, 0.4);
+    border: 4px solid rgb(6, 30, 250);
+}
+
+.oii:hover {
+    background-color: rgba(255, 238, 6, 0.4);
+    border: 4px solid rgb(250, 156, 6);
+}
+.optovolokno:hover, .lazer:hover, .attenuator:hover, .razvetvitel:hover, 
+.vofm1:hover, .vrachatel:hover, .controler1:hover, .volz1:hover, 
+.objedinitel:hover, .controler2:hover, .svetodelitel:hover, 
+.volz2:hover, .vrachatel2:hover, .vofm2:hover,
+.controler3:hover,.hbo:hover,.volz3:hover,
+.summator:hover, .registrator:hover, .strobirovanie:hover   {
+    background-color: rgba(5, 255, 6, 0.4);
+    border: 4px solid green;
 }
