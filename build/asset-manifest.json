@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.eee44124.chunk.css",
-    "main.js": "./static/js/main.1cbfed4b.chunk.js",
-    "main.js.map": "./static/js/main.1cbfed4b.chunk.js.map",
+    "main.js": "./static/js/main.89a39bdc.chunk.js",
+    "main.js.map": "./static/js/main.89a39bdc.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ec2da515.js",
     "runtime-main.js.map": "./static/js/runtime-main.ec2da515.js.map",
     "static/js/2.e2c53b7a.chunk.js": "./static/js/2.e2c53b7a.chunk.js",
@@ -10,14 +10,20 @@
     "index.html": "./index.html",
     "static/css/main.eee44124.chunk.css.map": "./static/css/main.eee44124.chunk.css.map",
     "static/js/2.e2c53b7a.chunk.js.LICENSE.txt": "./static/js/2.e2c53b7a.chunk.js.LICENSE.txt",
+    "static/media/alisa.dcf749ec.jpg": "./static/media/alisa.dcf749ec.jpg",
     "static/media/attenuator.b427d211.jpg": "./static/media/attenuator.b427d211.jpg",
     "static/media/controler1.72adcee5.jpg": "./static/media/controler1.72adcee5.jpg",
+    "static/media/hbo.28b75b9f.jpg": "./static/media/hbo.28b75b9f.jpg",
     "static/media/ioi.0ee1511a.jpg": "./static/media/ioi.0ee1511a.jpg",
     "static/media/lazer.e0a3a040.jpg": "./static/media/lazer.e0a3a040.jpg",
     "static/media/Header.css": "./static/media/logo.ce22f218.png",
+    "static/media/objedinitel.b6158f1a.jpg": "./static/media/objedinitel.b6158f1a.jpg",
     "static/media/odnomod.5d63f1d8.gif": "./static/media/odnomod.5d63f1d8.gif",
+    "static/media/q.400e8b56.mp3": "./static/media/q.400e8b56.mp3",
     "static/media/razvetvitel.2c4583f8.jpg": "./static/media/razvetvitel.2c4583f8.jpg",
+    "static/media/registrator.15c871f9.jpg": "./static/media/registrator.15c871f9.jpg",
     "static/media/SKRK.css": "./static/media/skrk.f29bbaae.png",
+    "static/media/svetodelitel.1d8a1edb.jpg": "./static/media/svetodelitel.1d8a1edb.jpg",
     "static/media/vofm1.45f4d2fe.jpg": "./static/media/vofm1.45f4d2fe.jpg",
     "static/media/volz1.ae9fca47.jpg": "./static/media/volz1.ae9fca47.jpg",
     "static/media/vrachatel.c60565eb.jpg": "./static/media/vrachatel.c60565eb.jpg"
@@ -26,6 +32,6 @@
     "static/js/runtime-main.ec2da515.js",
     "static/js/2.e2c53b7a.chunk.js",
     "static/css/main.eee44124.chunk.css",
-    "static/js/main.1cbfed4b.chunk.js"
+    "static/js/main.89a39bdc.chunk.js"
   ]
 }
