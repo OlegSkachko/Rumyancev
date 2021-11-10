@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import volz1 from './../../../img/volz1.jpg'
 import './index.css'
 
-const ModalVolz1 = (props) => {
+const ModalVolz3 = (props) => {
 
 const [value1,setValue1] = useState(1120)
 const [value2,setValue2] = useState(1650)
@@ -14,7 +14,7 @@ const [value4,setValue4] = useState(50)
     return (
         <div className={props.active==true ? 'modal active': 'modal' } onClick={props.onClick}>
             <div className='modal_content' onClick={e=>e.stopPropagation()}>
-                <h1>Первая волоконно-оптическая линия задержки</h1>
+                <h1>Третья волоконно-оптическая линия задержки</h1>
                 <div>
 Диапазон оптической задержки,  пс =	от 0 до  {value1}  <input onChange={(e) => setValue1(e.target.value)}/><br/>
 Рабочая длина волны, нм =от 1060 до  {value2}  <input onChange={(e) => setValue2(e.target.value)}/><br/>
@@ -30,4 +30,4 @@ const [value4,setValue4] = useState(50)
     );
 };
 
-export default ModalVolz1;
+export default ModalVolz3;

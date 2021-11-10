@@ -1,6 +1,10 @@
 import React from 'react';
 import './Project.css'
+import q from './../../../img/q.mp3'
+
 const Project = () => {
+    let audio = new Audio(q)
+    audio.play()
     return (
         <div className='content'>
 <p>    Квантовая криптография – направление квантовой информатики. 
