@@ -1,4 +1,4 @@
-import { LineChart, Line,XAxis,Tooltip, CartesianGrid} from 'recharts';
+
 import React, { useState } from 'react';
 import Alisa from '../../atoms/ElementsOfSKRK/Alisa.jsx';
 import Attenuator from '../../atoms/ElementsOfSKRK/Attenuator.jsx';
@@ -48,7 +48,7 @@ import q from './../../../img/q.mp3'
 
 import './Equipment.css'
 const Equipment = (props) => {
-    const data = [{name: 'Page A', uv: 400, pv: 2400, amt: 2400}, {name: 'A', uv: 100, pv: 2400, amt: 2400},{name: 'B', uv: 200, pv: 2200, amt: 2200},{name: 'C', uv: 300, pv: 2600, amt: 2600},];
+  
     const [isEquipment, setIsEquipment] = useState(false)
     const [ModalActiv, setModalActiv] =useState(false)
     let audio = new Audio(q)
@@ -242,18 +242,7 @@ const Equipment = (props) => {
                 <Summator onClick={()=>chooseEquipment(18)}/>
                 <Registrator onClick={()=>chooseEquipment(19)}/>
                 <Strobirovanie onClick={()=>chooseEquipment(20)}/>
-                <LineChart
-  width={400}
-  height={400}
-  data={data}
-  margin={{ top: 5, right: 20, left: 10, bottom: 5 }}
->
-  <XAxis dataKey="name" />
-  <Tooltip />
-  <CartesianGrid stroke="#f5f5f5" />
-  <Line type="monotone" dataKey="uv" stroke="#ff7300" yAxisId={0} />
-  <Line type="monotone" dataKey="pv" stroke="#387908" yAxisId={1} />
-</LineChart>
+                
             </div>
         </div>
     );

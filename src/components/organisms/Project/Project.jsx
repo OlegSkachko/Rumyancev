@@ -1,7 +1,12 @@
 import React from 'react';
 import './Project.css'
 import q from './../../../img/q.mp3'
-
+// import { XYPlot,
+//     XAxis,
+//     YAxis,
+//     VerticalGridLines,
+//     HorizontalGridLines,
+//     AreaSeries} from 'react-vis';
 const Project = () => {
     let audio = new Audio(q)
     audio.play()
@@ -31,8 +36,18 @@ B92 с интерферометрами Маха-Цендера.
 <p>    Пособие полезно для подготовки дипломированных специалистов по 
 специальностям и направлению укрупнённой группы 10.00.00 «Информационная 
 безопасность».</p>
-
-        </div>
+{/* <XYPlot width={300} height={300}>
+      <VerticalGridLines />
+      <HorizontalGridLines />
+      <XAxis />
+      <YAxis />
+      <AreaSeries
+        className="area-series-example"
+        curve="curveNatural"
+        data={[{x: 1, y: 10}, {x: 2, y: 5}, {x: 3, y: 15}]}
+      />
+    </XYPlot>*/}
+        </div> 
     );
 };
 
