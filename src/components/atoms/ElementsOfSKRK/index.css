@@ -1,3 +1,37 @@
 .img {
     width: 230px;
 }
+
+
+.enc {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.enc_content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid black;
+    
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.a {
+    font-size: 20px; 
+}
+
+.b {
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+.c {
+    background-color: rgba(255, 2, 2, 0.3);
+}

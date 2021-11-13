@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import lazer from './../../../img/lazer.jpg'
 import './index.css'
-import { LineChart, Line,XAxis,Tooltip, CartesianGrid} from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Legend, Tooltip, CartesianGrid} from 'recharts';
 
 const ModalLazer = (props) => {
    
@@ -41,13 +41,14 @@ const data = [{name: '0', вероятность: 0,},
                     data={data}
                     margin={{ top: 5, right: 20, left: 10, bottom: 5 }}
                     >
-                    <XAxis 
-                    dataKey="name" />
+                        
+                     <XAxis dataKey="name" />
+                     <Legend />
                     <Tooltip />
                     <CartesianGrid stroke="#f5f5f5" />
                     <Line type="monotone" dataKey="вероятность" stroke="#ff7300" yAxisId={1} />
                 </LineChart>
-                Вероятность регистрации фотона от частоты лазера <br/><br/>
+                Плотность распределения генерации фотона с заданной длиной волны. <br/><br/>
                 <img src={lazer}></img>
                 <button onClick={props.onClick1}>закрыть</button>
                 </div>
