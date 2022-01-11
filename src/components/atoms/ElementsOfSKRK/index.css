@@ -1,8 +1,7 @@
 .img {
     width: 230px;
 }
-
-
+ 
 .enc {
     margin: 20px;
     display: grid;
@@ -20,12 +19,13 @@
 }
 
 .title {
+    width: 140px;
     font-size: 14px;
     font-weight: bold;
 }
 
 .a {
-    font-size: 20px; 
+    font-size: 18px; 
 }
 
 .b {
@@ -34,4 +34,12 @@
 
 .c {
     background-color: rgba(255, 2, 2, 0.3);
+}
+
+.key {
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
 }

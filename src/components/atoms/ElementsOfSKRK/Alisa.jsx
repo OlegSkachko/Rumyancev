@@ -3,6 +3,7 @@ import alisa from './../../../img/alisa.jpg'
 import './index.css'
 
 
+
 const Alisa = (props) => {
     
 
@@ -11,6 +12,7 @@ const Alisa = (props) => {
                 <div className='modal__content' onClick={e=>e.stopPropagation()}>
                     Станция Алиса <br/><br/>
                     <img className='img' src={alisa}></img>
+                  
                     <button  onClick={props.onClick}>подробнее</button>
                 </div>
         </div>

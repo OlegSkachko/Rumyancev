@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import './index.css'
 
-const Encription = () => {
 
+
+
+const Encription = () => {
+    
     const [value1,setValue1] = useState([0,0,0,0,0,0,0,0])
     const [value2,setValue2] = useState([0,0,0,0,0,0,0,0])
     const [value3,setValue3] = useState([0,0,0,0,0,0,0,0])
@@ -11,6 +14,9 @@ const Encription = () => {
     const [value6,setValue6] = useState([0,0,0,0,0,0,0,0])
     const [value7,setValue7] = useState([0,0,0,0,0,0,0,0])
     const [value8,setValue8] = useState([0,0,0,0,0,0,0,0])
+
+    
+
 
     let stroka1
     let stroka2
@@ -21,7 +27,11 @@ const Encription = () => {
     let stroka7 =[]
     let stroka8
 
+
+
     function generateKey() {
+
+        
         stroka1 = value1.map((i)=> {
             let a = Math.trunc(Math.random()*2)
             return a === 0? 0 : 'π/2'
@@ -74,8 +84,9 @@ const Encription = () => {
                 {value7.map((i) => <div className='enc_content a'>{i}</div>)}
             <div className='enc_content title'>Бит ключа</div>
                 {value8.map((i) => <div className={(i==='-') ? 'enc_content c': 'enc_content b'}>{i}</div>)}
+        
         </div>
-
+        
         </>
     );
 };
