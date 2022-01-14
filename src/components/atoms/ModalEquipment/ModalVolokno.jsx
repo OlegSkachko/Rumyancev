@@ -14,6 +14,7 @@ const [value7,setValue7] = useState(125)
 const [value8,setValue8] = useState(250)
 const [value9,setValue9] = useState(5)
 const [value10,setValue10] = useState(-25)
+const [value11,setValue11] = useState(1.468)
 
     
     return (
@@ -30,7 +31,9 @@ const [value10,setValue10] = useState(-25)
                     Диаметр отражающей оболочки, мкм =	{value7}±1,0 <input onChange={(e) => setValue7(e.target.value)}/><br/>
                     Диаметр покрытия, мкм =	{value8}±15 <input onChange={(e) => setValue8(e.target.value)}/><br/>
                     Длина биения, менее, мм =	{value9} <input onChange={(e) => setValue9(e.target.value)}/><br/>
-                    Перекрёстные помехи, дБ =	{value10} <input onChange={(e) => setValue10(e.target.value)}/><br/>
+                    Перекрёстные помехи, дБ =	{value10} <input onChange={(e) => setValue10(e.target.value)}/><br/><br/>
+                    Эффективный показатель преломления = {value11} <input onChange={(e) => setValue11(e.target.value)}/><br/>
+                    Скорость распространения фотона в оптическом волокне = {(300000/value11).toFixed(1)} км/c <br/>
                 </div>
                
                 <img src={odnomod}></img>
