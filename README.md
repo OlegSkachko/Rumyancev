@@ -1,5 +1,4 @@
-# Rumyancev
+click to view https://olegskachko.github.io/rumyancevSKRK/
 
-npm start 
-
-https://olegskachko.github.io/rumyancev.github.io/
+Login: admin
+password: admin
